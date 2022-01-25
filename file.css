@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+}
+.header{
+  background: rgb(51,51,51);
+  position: relative;
+  height: 200px;
+  border: 3px solid black;
+  color: white;
+}
+.header p{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.header,img{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.contant{
+  
+}
+.contant-div{
+  background: gold;
+  height: 700px;
+  border: 2px solid goldenrod;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.footer{
+  background: silver;
+  height: 40px;
+  border: 3px solid gray;
+}
